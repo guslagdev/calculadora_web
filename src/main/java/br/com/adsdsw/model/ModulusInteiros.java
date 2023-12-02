@@ -2,7 +2,7 @@ package br.com.adsdsw.model;
 
 /**
 * Esta classe contempla a lógica e tratamento 
-* para calculos de multiplicação de inteiros.
+* para calculos de módulo (ou resto da divisão) de inteiros.
 *
 * @author  Colab001
 * @version 1.0
