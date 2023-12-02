@@ -4,7 +4,7 @@ package br.com.adsdsw.model;
 * Esta classe contempla a lógica e tratamento 
 * para calculos de soma de inteiros.
 *
-* @author  Colab001
+* @author  Colab002
 * @version 1.0
 * @since   05/09/2023
 */
