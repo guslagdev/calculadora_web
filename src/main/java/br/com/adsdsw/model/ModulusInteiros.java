@@ -1,5 +1,14 @@
 package br.com.adsdsw.model;
 
+/**
+* Esta classe contempla a lógica e tratamento 
+* para calculos de multiplicação de inteiros.
+*
+* @author  Colab001
+* @version 1.0
+* @since   05/08/2023
+*/
+
 public class ModulusInteiros {
 	private int n1;
 	private int n2;
