@@ -1,5 +1,14 @@
 package br.com.adsdsw.model;
 
+/**
+* Esta classe contempla a lógica e tratamento 
+* para calculos de subtração de inteiros.
+*
+* @author  Colab002
+* @version 1.0
+* @since   05/09/2023
+*/
+
 public class SubtraiInteiros {
 	private int n1;
 	private int n2;
