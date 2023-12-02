@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculadora | Tarefa01-Servlet</title>
+	<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+	<script type="text/javascript" src="resources/js/ajax.js"></script>
+</head>
+<body class="bg-light">
+    <h1 class="text-center fw-bold">Calculo de números inteiros</h1>
+	<form class=".col-sm-container text-center">
+		<div class="row justify-content-md-center">
+			<div class="col col-lg-2">
+				<label class="midTextLabel">Primeiro número</label>
+			</div>
+			<div class="col col-lg-2">
+				<input type="number" class="form-control" id="idnum1" name="txtnum1" step="1" pattern="^[-/d]/d*$" /><br>
+			</div>
+		</div>
+		<div class="row justify-content-md-center">	
+			<div class="col col-lg-2">
+				<label class="midTextLabel">Segundo número</label>
+			</div>
+			<div class="col col-lg-2">
+				<input type="number" class="form-control" id="idnum2" name="txtnum2" /><br>
+			</div>
+		</div>
+		<div class="row justify-content-md-center">
+			<div class="col-auto">
+				<input type="radio" class="form-check-input" id="sum" name="mtdCalc" value="sum" />
+				<label for="sum" class="form-check-label" >Somar</label>
+				<input type="radio" class="form-check-input" id="sub" name="mtdCalc" value="sub" />
+				<label for="sub" class="form-check-label" >Subtrair</label>
+				<input type="radio" class="form-check-input" id="mult" name="mtdCalc" value="mult" />
+				<label for="mult" class="form-check-label" >Multiplicar</label>
+				<input type="radio" class="form-check-input" id="div" name="mtdCalc" value="div" />
+				<label for="div" class="form-check-label" >Dividir</label>
+				<input type="radio" class="form-check-input" id="mod" name="mtdCalc" value="mod" />
+				<label for="mod" class="form-check-label" >Modulo</label>
+			</div>
+		</div>
+		<br>
+		<div class="row justify-content-md-center" id="btnSentStyle">
+			<div class="col col-lg-2">
+				<input type="button" class="btn btn-primary" id="btnEnviar" value="Enviar" />
+			</div>
+		</div>
+		<br>
+		<div class="row justify-content-md-center">
+			<div class="col col-lg-1">
+				<label>Resposta</label>
+			</div>
+			<div class="col col-lg-2">
+				<input type="text" class="form-control" id="idresp" readonly />
+			</div>
+		</div>
+	</form>
+</body>
+<footer class="text-center text-lg-start bs-dark-bg text-muted">
+	<div class="text-center p-4">
+		<span class="fw-bold">by: Gustavo Lagares | RA: 202151136</span>
+		<br />
+		<span class="fw-bold">Desenvolvimento de soluções Web - Unigoiás</span>
+	</div>
+</footer>
+</html>
