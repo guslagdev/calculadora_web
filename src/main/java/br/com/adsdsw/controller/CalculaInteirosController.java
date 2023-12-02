@@ -13,6 +13,16 @@ import br.com.adsdsw.model.MultiplicaInteiros;
 import br.com.adsdsw.model.SomaInteiros;
 import br.com.adsdsw.model.SubtraiInteiros;
 
+/**
+* Esta classe contempla o controle das requisições
+* e processamento e direcionamento de dados deste projeto.
+*
+* @author  Colab003
+* @version 1.0
+* @since   05/07/2023
+*/
+
+
 @WebServlet("/processa")
 public class CalculaInteirosController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
